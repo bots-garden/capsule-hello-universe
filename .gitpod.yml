@@ -1,0 +1,27 @@
+image: k33g/capsule:0.0.1
+# Source code of the Dockerfile:
+# https://github.com/bots-garden/capsule/blob/main/docker/Dockerfile
+
+tasks:
+  - name: initialize
+    before: |
+      CAPSULE_VERSION="0.1.7"
+      OS="linux"
+      ARCH="amd64"
+      echo "💊 Installing the capsule launcher..."
+      wget https://github.com/bots-garden/capsule/releases/download/${CAPSULE_VERSION}/capsule-${CAPSULE_VERSION}-${OS}-${ARCH}.tar.gz
+      sudo tar -zxf capsule-${CAPSULE_VERSION}-${OS}-${ARCH}.tar.gz --directory /usr/local/bin
+      rm capsule-${CAPSULE_VERSION}-${OS}-${ARCH}.tar.gz
+    init: |
+      echo "👋 Hello, Capsule is installed. Have fun 🙂"
+
+ports:
+  - port: 3000-25000
+    visibility: public
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - golang.go
+    - pkief.material-icon-theme
+    - aaron-bond.better-comments
