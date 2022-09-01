@@ -4,7 +4,6 @@ dump.rdb
 *.wasm
 node_modules
 .cache
-dist
 .parcel-cache
 package.json
 package-lock.json
