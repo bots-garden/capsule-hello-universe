@@ -2,3 +2,6 @@ tmp
 .DS_Store
 dump.rdb
 *.wasm
+node_modules
+.cache
+dist

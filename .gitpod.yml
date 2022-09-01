@@ -12,6 +12,10 @@ tasks:
       wget https://github.com/bots-garden/capsule/releases/download/${CAPSULE_VERSION}/capsule-${CAPSULE_VERSION}-${OS}-${ARCH}.tar.gz
       sudo tar -zxf capsule-${CAPSULE_VERSION}-${OS}-${ARCH}.tar.gz --directory /usr/local/bin
       rm capsule-${CAPSULE_VERSION}-${OS}-${ARCH}.tar.gz
+
+      npm install esbuild
+      npm install react react-dom
+
     init: |
       echo "👋 Hello, Capsule is installed. Have fun 🙂"
 
@@ -22,6 +26,6 @@ ports:
 
 vscode:
   extensions:
-    - golang.go
     - pkief.material-icon-theme
     - aaron-bond.better-comments
+    - golang.Go
