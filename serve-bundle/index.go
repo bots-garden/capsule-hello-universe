@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	//go:embed resources/index.html
+	//go:embed resources/dist/index.html
 	html []byte
 )
 

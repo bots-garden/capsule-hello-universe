@@ -2,3 +2,5 @@ github.com/bots-garden/capsule/capsulemodule v0.0.0-20220831124319-ada3ee91952f 
 github.com/bots-garden/capsule/capsulemodule v0.0.0-20220831124319-ada3ee91952f/go.mod h1:59cquWnltUN/LATOU96cq9P7IdaaCxLYJgK4oUARYZw=
 github.com/bots-garden/capsule/commons v0.0.0-20220821060842-d1dc9f030021 h1:cBeILASaSUdrsImLP6wR6a747SHYBJqIwuADm2BMDO4=
 github.com/bots-garden/capsule/commons v0.0.0-20220821060842-d1dc9f030021/go.mod h1:5ctHSZAwy3GEi4tR9YKFTfWtBUXDcOMFHNiJYXbV61c=
+github.com/bots-garden/capsule/commons v0.0.0-20220831124319-ada3ee91952f h1:kqEJ6jUOI6fNooVJoWvPWH5CchaMvTv4/XhznHU3j4k=
+github.com/bots-garden/capsule/commons v0.0.0-20220831124319-ada3ee91952f/go.mod h1:5ctHSZAwy3GEi4tR9YKFTfWtBUXDcOMFHNiJYXbV61c=

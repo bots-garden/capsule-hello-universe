@@ -2,10 +2,22 @@
 
 ## Pre-requisites
 
+> Install parcel
 ```bash
+cd resources
 npm install --save-dev parcel
+```
+
+> Dev mode
+```bash
+cd resources
 npx parcel ./index.html
-npx parcel build ./index.html --no-minify
+```
+
+> Build
+```bash
+cd resources
+npx parcel build ./index.html
 ```
 
 ## Build the wasm file
