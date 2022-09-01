@@ -18,11 +18,16 @@ func main() {
 }
 
 func Handle(bodyReq string, headersReq map[string]string) (bodyResp string, headersResp map[string]string, errResp error) {
-	message, _ := hf.GetEnv("MESSAGE")
 
+	// Read the environment variable
+	message, err := hf.GetEnv("MESSAGE")
+
+	// Set the response format
 	headersResp = map[string]string{
 		"Content-Type": "text/html; charset=utf-8",
 	}
 
-	return strings.Replace(string(html), "{{message}}", message, -1), headersResp, nil
+	htmlPage := strings.Replace(string(html), "{{message}}", message, -1)
+
+	return htmlPage, headersResp, err
 }

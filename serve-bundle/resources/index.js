@@ -1,8 +1,6 @@
 import { LitElement, html, css} from 'lit-element';
 import { myStyle } from './style.js';
 
-console.log("👋 Hello World 🌍")
-
 class HelloWorld extends LitElement {
   static styles = [myStyle]
 
