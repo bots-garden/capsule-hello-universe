@@ -1,6 +1,6 @@
 import {css} from 'lit-element';
 
-export const myStyle = css`
+export const myStyles = css`
 .container { 
   min-height: 100vh; 
   display: flex; 

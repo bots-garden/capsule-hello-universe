@@ -1,8 +1,8 @@
 import { LitElement, html, css} from 'lit-element';
-import { myStyle } from './style.js';
+import { myStyle as myStyles } from './styles.js';
 
 class HelloWorld extends LitElement {
-  static styles = [myStyle]
+  static styles = [myStyles]
 
   render() {
     return html`
@@ -14,7 +14,7 @@ class HelloWorld extends LitElement {
 customElements.define('hello-world', HelloWorld);
 
 class ServedByCapsule extends LitElement {
-  static styles = [myStyle]
+  static styles = [myStyles]
 
   render() {
     return html`
@@ -26,7 +26,7 @@ class ServedByCapsule extends LitElement {
 customElements.define('served-by-capsule', ServedByCapsule);
 
 class LittleMessage extends LitElement {
-  static styles = [myStyle]
+  static styles = [myStyles]
 
   render() {
     return html`
@@ -38,7 +38,7 @@ class LittleMessage extends LitElement {
 customElements.define('little-message', LittleMessage);
 
 class MainApp extends LitElement {
-  static styles = [myStyle]
+  static styles = [myStyles]
 
   render() {
     return html`
