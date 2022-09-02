@@ -1,5 +1,5 @@
 import { LitElement, html, css} from 'lit-element';
-import { myStyle as myStyles } from './styles.js';
+import { myStyles as myStyles } from './styles.js';
 
 class HelloWorld extends LitElement {
   static styles = [myStyles]
