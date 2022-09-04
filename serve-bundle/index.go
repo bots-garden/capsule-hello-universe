@@ -17,16 +17,13 @@ func main() {
 	hf.SetHandleHttp(Handle)
 }
 
-func Handle(bodyReq string, headersReq map[string]string) (
-	bodyResp string,
-	headersResp map[string]string,
-	errResp error) {
+func Handle(hf.Request) (resp hf.Response, errResp error) {
 
 	// Read the environment variable
 	message, err := hf.GetEnv("MESSAGE")
 
 	// Set the response format
-	headersResp = map[string]string{
+	headers := map[string]string{
 		"Content-Type": "text/html; charset=utf-8",
 	}
 
@@ -37,5 +34,5 @@ func Handle(bodyReq string, headersReq map[string]string) (
 			message,
 			-1)
 
-	return htmlPage, headersResp, err
+	return hf.Response{Body: htmlPage, Headers: headers}, err
 }
