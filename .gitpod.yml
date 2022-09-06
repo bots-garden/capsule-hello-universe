@@ -5,7 +5,7 @@ image: k33g/capsule:0.0.1
 tasks:
   - name: initialize
     before: |
-      CAPSULE_VERSION="0.1.9"
+      CAPSULE_VERSION="0.2.0"
       OS="linux"
       ARCH="amd64"
       echo "💊 Installing the capsule launcher..."
