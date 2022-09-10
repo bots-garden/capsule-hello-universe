@@ -3,11 +3,11 @@ import { picnic as picnic } from './styles.js';
 import { initcss as initcss } from './init-css';
 
 class HelloWorld extends LitElement {
-  static styles = [picnic]
+  static styles = [picnic, initcss]
 
   render() {
     return html`
-    <h1 class="title">👋 Hello World 🌍</h1>
+    <h1 class="nicefont">👋 Hello World 🌍</h1>
     `;
   }
 }
@@ -15,11 +15,11 @@ class HelloWorld extends LitElement {
 customElements.define('hello-world', HelloWorld);
 
 class ServedByCapsule extends LitElement {
-  static styles = [picnic]
+  static styles = [picnic, initcss]
 
   render() {
     return html`
-    <h2 class="subtitle">Served with 💜 by Capsule 💊</h2>
+    <h2 class="nicefont">Served with 💜 by Capsule 💊</h2>
     `;
   }
 }
@@ -27,17 +27,17 @@ class ServedByCapsule extends LitElement {
 customElements.define('served-by-capsule', ServedByCapsule);
 
 class LittleMessage extends LitElement {
-  static styles = [picnic]
+  static styles = [picnic, initcss]
 
   render() {
     return html`
     <div>
-      <h2 class="subtitle"> {{message}} </h2>
+      <h2 class="nicefont"> {{message}} </h2>
       <fieldset class="flex two">
-        <label><input type="email" placeholder="Email"></label>
-        <label><input type="password" placeholder="Password"></label>
+        <label><input type="email" placeholder="Email" class="nicefont"></label>
+        <label><input type="password" placeholder="Password" class="nicefont"></label>
       </fieldset>
-      <textarea placeholder="Textarea"></textarea>
+      <textarea placeholder="Textarea" class="nicefont"></textarea>
     </div>
     `;
   }
@@ -57,7 +57,7 @@ class MainApp extends LitElement {
             <hello-world></hello-world>
             <served-by-capsule></served-by-capsule>
             <little-message></little-message>
-            <button class='success'>Success</button>
+            <button class='success nicefont'>Success</button>
           </div>
         </article> 
       </section> 

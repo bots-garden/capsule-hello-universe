@@ -8,6 +8,12 @@ export const initcss = css`
   padding: 5%; 
   margin: 5%;
 }
+.nicefont {
+  display: block; 
+  font-weight: 300; 
+  color: #35495e; 
+  letter-spacing: 1px; 
+}
 `;
 
 
