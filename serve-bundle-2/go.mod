@@ -1,4 +1,4 @@
-module simple-html-demo
+module bundle-demo-2
 
 go 1.18
 
