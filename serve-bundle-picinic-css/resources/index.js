@@ -32,18 +32,14 @@ class LittleMessage extends LitElement {
   render() {
     return html`
     <div>
-      <h2 class="nicefont"> {{message}} </h2>
-      <fieldset class="flex two">
-        <label><input type="email" placeholder="Email" class="nicefont"></label>
-        <label><input type="password" placeholder="Password" class="nicefont"></label>
-      </fieldset>
-      <textarea placeholder="Textarea" class="nicefont"></textarea>
+      <h2 class="nicefont smallerfont"> {{message}} </h2>
     </div>
     `;
   }
 }
 
 customElements.define('little-message', LittleMessage);
+
 
 class MainApp extends LitElement {
   static styles = [picnic, initcss]
@@ -57,7 +53,6 @@ class MainApp extends LitElement {
             <hello-world></hello-world>
             <served-by-capsule></served-by-capsule>
             <little-message></little-message>
-            <button class='success nicefont'>Success</button>
           </div>
         </article> 
       </section> 

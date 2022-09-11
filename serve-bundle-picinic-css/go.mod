@@ -1,4 +1,4 @@
-module bundle-demo-2
+module bundle-picnic-css
 
 go 1.18
 

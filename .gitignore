@@ -5,5 +5,4 @@ dump.rdb
 node_modules
 .cache
 .parcel-cache
-package.json
 package-lock.json

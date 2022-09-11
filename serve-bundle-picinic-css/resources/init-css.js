@@ -10,9 +10,13 @@ export const initcss = css`
 }
 .nicefont {
   display: block; 
-  font-weight: 300; 
+  font-weight: 300;
+  font-size: 40px;
   color: #35495e; 
   letter-spacing: 1px; 
+}
+.smallerfont {
+  font-size: 30px;
 }
 `;
 

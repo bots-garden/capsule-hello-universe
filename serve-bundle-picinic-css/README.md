@@ -1,23 +1,26 @@
 # Serve a bundle with Capsule
+> 🚧 this is a work in progress
+
+CSS framework: [Picnic CSS](https://picnicss.com/)
 
 ## Pre-requisites
 
-> Install parcel
+> Install dependencies
 ```bash
 cd resources
-npm install --save-dev parcel
+npm install
 ```
 
 > Dev mode
 ```bash
 cd resources
-npx parcel ./index.html
+npm start
 ```
 
 > Build
 ```bash
 cd resources
-npx parcel build ./index.html
+npm run build
 ```
 
 ## Build the wasm file
