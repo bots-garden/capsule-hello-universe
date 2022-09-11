@@ -1,0 +1,12 @@
+{
+  "scripts": {
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "lit-element": "^3.2.2"
+  }
+}

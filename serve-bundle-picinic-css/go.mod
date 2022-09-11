@@ -1,4 +1,4 @@
-module simple-html-demo
+module bundle-picnic-css
 
 go 1.18
 
