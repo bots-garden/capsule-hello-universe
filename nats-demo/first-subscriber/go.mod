@@ -1,4 +1,4 @@
-module cli-mode-demo
+module first-nats-subscriber
 
 go 1.18
 
