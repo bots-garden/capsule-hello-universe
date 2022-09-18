@@ -18,7 +18,7 @@ func main() {
 }
 
 func Handle(hf.Request) (resp hf.Response, errResp error) {
-
+	
 	// Read the environment variable
 	message, err := hf.GetEnv("MESSAGE")
 

@@ -1,4 +1,4 @@
-module bundle-picnic-css
+module notify-nats-subscriber
 
 go 1.18
 

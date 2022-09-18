@@ -1,5 +1,5 @@
 {
-  "image": "k33g/capsule:0.0.1",
+  "image": "k33g/capsule-hello-universe:0.0.0",
   "forwardPorts": [
     8080,
     3000,

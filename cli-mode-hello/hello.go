@@ -6,7 +6,6 @@ import (
 	hf "github.com/bots-garden/capsule/capsulemodule/hostfunctions"
 )
 
-
 // main is required.
 func main() {
 
@@ -19,15 +18,6 @@ func main() {
 		}
 	}
 
-	/*
-	plouf := func() {
-		for {
-			hf.Log("hello 🔴🤗 " + time.Now().String())
-			time.Sleep(1000 * time.Millisecond)
-		}
-	}
-	*/
-
 	message, err := hf.GetEnv("MESSAGE")
 	if err != nil {
 		hf.Log(err.Error())
@@ -35,11 +25,9 @@ func main() {
 		hf.Log("MESSAGE=" + message)
 	}
 	plop()
-	//plouf()
-	//hf.Log("...")
 }
 
 func Handle(params []string) (string, error) {
 
-	return "ret", nil
+	return "nothing", nil
 }
