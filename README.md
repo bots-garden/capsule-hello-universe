@@ -9,10 +9,10 @@ Let's try to go beyond the hello world
 
 - `serve-simple-html`
 - `serve-bundle` (use Lit element)
-- `serve-bundle-picinic-css` (use Lit element and picinic css)
+- `serve-bundle-picnic-css` (use Lit element and picnic css)
 
 ## Nats samples
 
-- `nats-demo`
+- `nats-samples`
 
 
