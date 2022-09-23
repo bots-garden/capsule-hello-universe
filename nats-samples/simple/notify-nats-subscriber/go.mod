@@ -1,4 +1,4 @@
-module lit-demo
+module notify-nats-subscriber
 
 go 1.18
 

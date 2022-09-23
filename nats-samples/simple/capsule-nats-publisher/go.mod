@@ -1,4 +1,4 @@
-module lit-demo
+module capsule-nats-publisher
 
 go 1.18
 

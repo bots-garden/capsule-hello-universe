@@ -1,4 +1,4 @@
-module lit-demo
+module ping-nats-subscriber
 
 go 1.18
 

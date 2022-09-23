@@ -1,4 +1,4 @@
-module lit-demo
+module greetings-nats-publisher
 
 go 1.18
 
