@@ -5,7 +5,7 @@ image: k33g/capsule-hello-universe:0.0.0
 tasks:
   - name: initialize
     before: |
-      CAPSULE_VERSION="v0.2.3"
+      CAPSULE_VERSION="v0.2.6"
       OS="linux"
       ARCH="amd64"
       echo "💊 Installing the capsule launcher..."
